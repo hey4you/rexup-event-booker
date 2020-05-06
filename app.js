@@ -6,7 +6,7 @@ const form = document.querySelector('.form')
 const showEvents = (event, id) => {
   const {name, attendee, status, description, email, booked} = event
 
-  file = "img/account.jpg"
+  file = "img/coding.jpg"
 
   const eventStatus = status === 0 ? 'free': 'paid'
   const output = `
