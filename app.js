@@ -18,8 +18,8 @@ const showEvents = (event, id) => {
                 ${eventStatus}
             </span>
              <p>${description}</p>
-             <a target="_blank" href="${file}">
-             <img src="${file}" alt="EventImg" style="width:150px">
+             <a target="_blank" href="">
+             <img src="" alt="EventImg" style="width:150px">
              </a>
             <button class="btn-email" onclick="setEmail('${email}')">${email}</button>
             <button onclick="bookEvent(${booked} ,'${id}')" class="btn btn-tertiary">Book</button>
